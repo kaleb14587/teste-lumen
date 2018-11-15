@@ -1,0 +1,10 @@
+create table order_items
+(
+  order_id    bigint not null comment 'id da transacao',
+  order_date  datetime default CURRENT_TIMESTAMP  not null comment 'data da transacao',
+  product_sku bigint not null comment 'codigo identificador do produto',
+  size        char(2) not null comment 'tamanho do produto',
+  color       varchar(50) not null comment 'cor do produto',
+  quantity    int not null comment 'quantidade',
+  price       float not null comment 'preço do produto'
+);

@@ -1,0 +1,14 @@
+{
+  "name": "teste-pmweb",
+  "description": "implementação da api, tarefa 2",
+  "type": "project",
+  "require": {
+          "illuminate/database": "5.1.8"
+  },
+  "autoload":{
+      "psr-4":{
+        "Api\\": "Api/",
+          "Models\\": "models/"
+    }
+  }
+}
