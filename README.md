@@ -10,7 +10,7 @@
  
  para utilizar a tarefa 3 é necessario rodar o comando no terminal:
 
-        composer install
+        composer update
     
 Importar o banco de dados, configurar o arquivo "tarefa2-tarefa3/config.php",
 alterando as variaveis para as do banco onde esta a importado:
